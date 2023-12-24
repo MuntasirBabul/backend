@@ -20,3 +20,7 @@ Set Constraints
 create_mode -default -name FUNCTIONAL
 read_sdc -mode FUNCTIONAL <sdc file path>
 ```
+syn_generic
+syn_map
+syn_opt
+
