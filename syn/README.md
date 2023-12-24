@@ -14,7 +14,9 @@ set_db hdl_track_filename_row_col true
 Check the Design for any unresolved reference, blackbox's.
 ```
 check_design -all
-Create Default Timing Mode
+```
+Set Constraints
+```
 create_mode -default -name FUNCTIONAL
-# Set Timing and Design Constraints
-read_sdc -mode FUNCTIONAL ../design_data/constraints/8T_funcRBB0_SSG.sdc
+read_sdc -mode FUNCTIONAL <sdc file path>
+```
